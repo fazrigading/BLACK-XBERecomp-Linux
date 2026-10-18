@@ -29,7 +29,10 @@ struct Options {
     uint32_t audio_output = 0;  // audio::kOutputAuto, kOutputStereo, kOutputSurround or kOutputMono
     std::string language = "int";  // one of kLanguages
     bool smaa = false;  // over the finished frame, HUD included; combines with msaa
-    bool pause_on_focus_loss = false;  // the game and its sound stop while the window is in the background
+    bool pause_on_focus_loss = true;  // the game and its sound stop while the window is in the background
+    bool controller_hold_aim = false;  // scopes too; off is the game's own, held to aim and scopes toggled
+    float controller_sensitivity = 1.0f;  // times the game's right stick look speeds
+    uint32_t rumble_intensity = 100;  // percent of the game's vibration
     std::map<std::string, std::string> keys;  // action id to key names, absent is the default
 };
 Options& Opt();

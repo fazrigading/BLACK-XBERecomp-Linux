@@ -35,8 +35,8 @@ This port is based on [BLACK-XBERecomp](https://github.com/TGP482/BLACK-XBERecom
 - **Reload Blur** - Toggles the blur effect while reloading.
 
 ### Input
-- **Mouse and Keyboard** - Full keyboard and mouse support with relative mouse mode, adjustable sensitivity, inverted look and rebindable controls.
-- **Controller** - Controller with SDL3 support.
+- **Mouse and Keyboard** - Full keyboard and mouse support with raw input, adjustable sensitivity, inverted look and rebindable controls.
+- **Controller** - Controller with SDL3 support and additional features.
 
 ### General
 - **Skip Intro** - Skips the intro logos.
