@@ -37,6 +37,7 @@ This port is based on [BLACK-XBERecomp](https://github.com/TGP482/BLACK-XBERecom
 ### Input
 - **Mouse and Keyboard** - Full keyboard and mouse support with raw input, adjustable sensitivity, inverted look and rebindable controls.
 - **Controller** - Controller with SDL3 support and additional features.
+- **Gyro Aiming** - Adds gyro aiming for controllers with motion sensors, such as the DualSense, DualShock 4 and Switch Pro Controller, with adjustable sensitivity. Works together with the right stick.
 
 ### General
 - **Skip Intro** - Skips the intro logos.

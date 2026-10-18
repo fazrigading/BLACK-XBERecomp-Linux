@@ -39,6 +39,8 @@ else()
     list(FILTER XBE_HOST_SOURCES EXCLUDE REGEX "/src/audio/xaudio2\\.cpp$")
     list(FILTER XBE_HOST_SOURCES EXCLUDE REGEX "/src/d3d/d3d12\\.cpp$")
 endif()
+# gyro aiming reads the controllers' sensors through SDL
+set_source_files_properties(src/common/gyro.cpp PROPERTIES INCLUDE_DIRECTORIES "${sdl3_SOURCE_DIR}/include")
 
 # partitions as config/game.toml sets them
 set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS config/game.toml)
