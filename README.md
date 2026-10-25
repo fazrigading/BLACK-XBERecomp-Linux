@@ -26,6 +26,7 @@ This port is based on [BLACK-XBERecomp](https://github.com/TGP482/BLACK-XBERecom
 - **V-Sync** - Reduces screen tearing.
 - **FPS Counter** - Displays the frame rate on screen.
 - **FMV Scale** - Choose between Fill, which zooms the 4:3 FMVs to fill widescreen displays, and 4:3, which keeps them at their original aspect ratio.
+- **Colour Blind Mode** - Adjusts the colours for Protanopia, Deuteranopia or Tritanopia.
 
 ### Graphics
 - **Multisample Antialiasing (MSAA)** - Enables 2x, 4x or 8x MSAA to smooth jagged edges while preserving a sharp image.
